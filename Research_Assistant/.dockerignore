@@ -1,0 +1,20 @@
+__pycache__/
+
+# Environment variables file (never put secrets in image)
+.env
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Git
+.git/
+
+# GitHub Actions
+.github/
+
+# Docker files
+Dockerfile
+docker-compose.yml
