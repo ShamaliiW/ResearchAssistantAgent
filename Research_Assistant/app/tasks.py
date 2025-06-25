@@ -1,6 +1,6 @@
 from crewai import Task
-from tools import search_tool
-from agents import get_research_analyst, get_content_writer, get_prospect_researcher
+from app.tools import search_tool
+from app.agents import get_research_analyst, get_content_writer, get_prospect_researcher
 
 # Research Task
 def get_research_task(company_name, agent):

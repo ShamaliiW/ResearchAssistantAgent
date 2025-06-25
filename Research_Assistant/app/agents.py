@@ -1,5 +1,5 @@
 from crewai import Agent
-from tools import search_tool
+from app.tools import search_tool
 
 # Agent 1
 def get_research_analyst(company_name, llm):

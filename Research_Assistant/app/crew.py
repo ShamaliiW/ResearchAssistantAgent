@@ -1,13 +1,8 @@
 import os
 from crewai import Crew, Process, LLM
-from agents import get_content_writer, get_research_analyst
-from tasks import get_research_task, get_analysis_task
+from app.agents import get_content_writer, get_research_analyst
+from app.tasks import get_research_task, get_analysis_task
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 llm = LLM(model="gpt-4o")
 
@@ -30,4 +25,5 @@ def build_crew(company_name):
     )
 
     return crew
+    
 

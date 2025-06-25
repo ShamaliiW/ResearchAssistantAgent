@@ -23,7 +23,6 @@ __pycache__/
 *$py.class
 
 # VSCode config (optional)
-.vscode/
 
 # PyCharm config (optional)
 .idea/
@@ -33,3 +32,5 @@ __pycache__/
 
 # Log files
 *.log
+
+.python_packages
