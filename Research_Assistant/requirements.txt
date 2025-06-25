@@ -3,8 +3,6 @@ crewai
 crewai[tools]
 fastapi[standard]
 
-azure-functions
-
 azure-identity
 azure.keyvault.secrets
 uvicorn[standard]
