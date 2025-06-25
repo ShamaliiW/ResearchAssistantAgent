@@ -2,11 +2,6 @@ name: Test-Build-Deploy
 
 on:
   push:
-    branches: [ main ]
-    paths-ignore:
-      - README.md
-      - .gitignore
-      - .vscode/**
 
 jobs:
   test:
