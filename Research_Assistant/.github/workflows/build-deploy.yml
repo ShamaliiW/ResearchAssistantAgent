@@ -2,6 +2,8 @@ name: Test-Build-Deploy
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   test:
@@ -17,4 +19,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-dev.txt 
       - name: Test Api
-        run: python -m pytest/test_api.py   
+        run: pytest test/test_api.py   
